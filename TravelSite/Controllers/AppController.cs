@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TravelSite.Models;
 using TravelSite.Services;
 using TravelSite.ViewModels;
 
@@ -10,22 +11,13 @@ namespace TravelSite.Controllers
 {
     public class AppController : Controller
     {
-        //private IMailService _mailService;
-
-        //public AppController()
-        //{
-
-        //}
-
-        //public AppController(IMailService service)
-        //{
-        //    _mailService = service;
-        //}
+        private TripContext _context = new TripContext();
 
         // GET: App
         public ActionResult Index()
         {
-            return View();
+            var trips = _context.Trips.OrderBy(t=>t.Name).ToList();
+            return View(trips);
         }
 
         public ActionResult About()

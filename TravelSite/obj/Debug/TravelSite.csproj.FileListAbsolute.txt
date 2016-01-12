@@ -38,3 +38,9 @@ D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\bin\Newtonsoft.Json.xml
 D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\obj\Debug\TravelSite.csprojResolveAssemblyReference.cache
 D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\obj\Debug\TravelSite.dll
 D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\obj\Debug\TravelSite.pdb
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\bin\EntityFramework.dll
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\bin\EntityFramework.SqlServer.dll
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\bin\EntityFramework.xml
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\bin\EntityFramework.SqlServer.xml
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\obj\Debug\TravelSite.Migrations.init.resources
+D:\DevCraft\Visual Studio Projects\TravelSite\TravelSite\obj\Debug\TravelSite.csproj.GenerateResource.Cache
